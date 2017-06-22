@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		DF4127A61EFC05D70027A15A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4127A51EFC05D70027A15A /* AppDelegate.swift */; };
-		DF4127A81EFC05D70027A15A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4127A71EFC05D70027A15A /* ViewController.swift */; };
 		DF4127AB1EFC05D70027A15A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF4127A91EFC05D70027A15A /* Main.storyboard */; };
 		DF4127AD1EFC05D70027A15A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF4127AC1EFC05D70027A15A /* Assets.xcassets */; };
 		DF4127B01EFC05D70027A15A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF4127AE1EFC05D70027A15A /* LaunchScreen.storyboard */; };
@@ -25,7 +24,6 @@
 /* Begin PBXFileReference section */
 		DF4127A21EFC05D70027A15A /* SWReavelImp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SWReavelImp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF4127A51EFC05D70027A15A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DF4127A71EFC05D70027A15A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DF4127AA1EFC05D70027A15A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DF4127AC1EFC05D70027A15A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF4127AF1EFC05D70027A15A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -75,7 +73,6 @@
 			children = (
 				DF4127BC1EFC06910027A15A /* ViewControllers */,
 				DF4127A51EFC05D70027A15A /* AppDelegate.swift */,
-				DF4127A71EFC05D70027A15A /* ViewController.swift */,
 				DF4127A91EFC05D70027A15A /* Main.storyboard */,
 				DF4127AC1EFC05D70027A15A /* Assets.xcassets */,
 				DF4127AE1EFC05D70027A15A /* LaunchScreen.storyboard */,
@@ -192,7 +189,6 @@
 			files = (
 				DF4127CB1EFC493E0027A15A /* rightMenuItemCell.swift in Sources */,
 				DF4127C91EFC0E1E0027A15A /* frontViewNavController.swift in Sources */,
-				DF4127A81EFC05D70027A15A /* ViewController.swift in Sources */,
 				DF4127C71EFC08740027A15A /* leftMenuItemCell.swift in Sources */,
 				DF4127C21EFC06DB0027A15A /* rightViewController.swift in Sources */,
 				DF4127BE1EFC06BA0027A15A /* leftViewController.swift in Sources */,
@@ -368,6 +364,7 @@
 				DF4127B61EFC05D70027A15A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

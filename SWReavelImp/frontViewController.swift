@@ -29,7 +29,7 @@ class frontViewController: UIViewController
     
     let nameLabel: UILabel = {
         let lb = UILabel()
-        lb.text = "---"
+        lb.text = "Click one of the menus"
         lb.textColor = UIColor.black
         lb.textAlignment = .center
         lb.font = lb.font.withSize(20)
