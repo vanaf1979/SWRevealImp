@@ -12,6 +12,14 @@
 		DF4127AB1EFC05D70027A15A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF4127A91EFC05D70027A15A /* Main.storyboard */; };
 		DF4127AD1EFC05D70027A15A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF4127AC1EFC05D70027A15A /* Assets.xcassets */; };
 		DF4127B01EFC05D70027A15A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF4127AE1EFC05D70027A15A /* LaunchScreen.storyboard */; };
+		DF4127BB1EFC06610027A15A /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF4127B91EFC06610027A15A /* SWRevealViewController.m */; };
+		DF4127BE1EFC06BA0027A15A /* leftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4127BD1EFC06BA0027A15A /* leftViewController.swift */; };
+		DF4127C01EFC06CC0027A15A /* frontViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4127BF1EFC06CC0027A15A /* frontViewController.swift */; };
+		DF4127C21EFC06DB0027A15A /* rightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4127C11EFC06DB0027A15A /* rightViewController.swift */; };
+		DF4127C51EFC08570027A15A /* baseCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4127C41EFC08570027A15A /* baseCell.swift */; };
+		DF4127C71EFC08740027A15A /* leftMenuItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4127C61EFC08740027A15A /* leftMenuItemCell.swift */; };
+		DF4127C91EFC0E1E0027A15A /* frontViewNavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4127C81EFC0E1E0027A15A /* frontViewNavController.swift */; };
+		DF4127CB1EFC493E0027A15A /* rightMenuItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4127CA1EFC493E0027A15A /* rightMenuItemCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +30,16 @@
 		DF4127AC1EFC05D70027A15A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF4127AF1EFC05D70027A15A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DF4127B11EFC05D70027A15A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF4127B81EFC06610027A15A /* SWReavelImp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SWReavelImp-Bridging-Header.h"; sourceTree = "<group>"; };
+		DF4127B91EFC06610027A15A /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = ../../../../Desktop/SWRevealViewController.m; sourceTree = "<group>"; };
+		DF4127BA1EFC06610027A15A /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = ../../../../Desktop/SWRevealViewController.h; sourceTree = "<group>"; };
+		DF4127BD1EFC06BA0027A15A /* leftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = leftViewController.swift; sourceTree = "<group>"; };
+		DF4127BF1EFC06CC0027A15A /* frontViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = frontViewController.swift; sourceTree = "<group>"; };
+		DF4127C11EFC06DB0027A15A /* rightViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = rightViewController.swift; sourceTree = "<group>"; };
+		DF4127C41EFC08570027A15A /* baseCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = baseCell.swift; sourceTree = "<group>"; };
+		DF4127C61EFC08740027A15A /* leftMenuItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = leftMenuItemCell.swift; sourceTree = "<group>"; };
+		DF4127C81EFC0E1E0027A15A /* frontViewNavController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = frontViewNavController.swift; sourceTree = "<group>"; };
+		DF4127CA1EFC493E0027A15A /* rightMenuItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = rightMenuItemCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +56,7 @@
 		DF4127991EFC05D60027A15A = {
 			isa = PBXGroup;
 			children = (
+				DF4127B71EFC06170027A15A /* Frameworks */,
 				DF4127A41EFC05D70027A15A /* SWReavelImp */,
 				DF4127A31EFC05D70027A15A /* Products */,
 			);
@@ -54,6 +73,7 @@
 		DF4127A41EFC05D70027A15A /* SWReavelImp */ = {
 			isa = PBXGroup;
 			children = (
+				DF4127BC1EFC06910027A15A /* ViewControllers */,
 				DF4127A51EFC05D70027A15A /* AppDelegate.swift */,
 				DF4127A71EFC05D70027A15A /* ViewController.swift */,
 				DF4127A91EFC05D70027A15A /* Main.storyboard */,
@@ -62,6 +82,38 @@
 				DF4127B11EFC05D70027A15A /* Info.plist */,
 			);
 			path = SWReavelImp;
+			sourceTree = "<group>";
+		};
+		DF4127B71EFC06170027A15A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF4127B91EFC06610027A15A /* SWRevealViewController.m */,
+				DF4127BA1EFC06610027A15A /* SWRevealViewController.h */,
+				DF4127B81EFC06610027A15A /* SWReavelImp-Bridging-Header.h */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF4127BC1EFC06910027A15A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				DF4127C31EFC08410027A15A /* cells */,
+				DF4127BD1EFC06BA0027A15A /* leftViewController.swift */,
+				DF4127BF1EFC06CC0027A15A /* frontViewController.swift */,
+				DF4127C11EFC06DB0027A15A /* rightViewController.swift */,
+				DF4127C81EFC0E1E0027A15A /* frontViewNavController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		DF4127C31EFC08410027A15A /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				DF4127C41EFC08570027A15A /* baseCell.swift */,
+				DF4127C61EFC08740027A15A /* leftMenuItemCell.swift */,
+				DF4127CA1EFC493E0027A15A /* rightMenuItemCell.swift */,
+			);
+			name = cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -97,6 +149,7 @@
 					DF4127A11EFC05D70027A15A = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = W9VCZ87L77;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -137,8 +190,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF4127CB1EFC493E0027A15A /* rightMenuItemCell.swift in Sources */,
+				DF4127C91EFC0E1E0027A15A /* frontViewNavController.swift in Sources */,
 				DF4127A81EFC05D70027A15A /* ViewController.swift in Sources */,
+				DF4127C71EFC08740027A15A /* leftMenuItemCell.swift in Sources */,
+				DF4127C21EFC06DB0027A15A /* rightViewController.swift in Sources */,
+				DF4127BE1EFC06BA0027A15A /* leftViewController.swift in Sources */,
 				DF4127A61EFC05D70027A15A /* AppDelegate.swift in Sources */,
+				DF4127C01EFC06CC0027A15A /* frontViewController.swift in Sources */,
+				DF4127C51EFC08570027A15A /* baseCell.swift in Sources */,
+				DF4127BB1EFC06610027A15A /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,11 +322,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = W9VCZ87L77;
 				INFOPLIST_FILE = SWReavelImp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vanaf1979.SWReavelImp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SWReavelImp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -274,11 +338,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = W9VCZ87L77;
 				INFOPLIST_FILE = SWReavelImp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vanaf1979.SWReavelImp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SWReavelImp-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

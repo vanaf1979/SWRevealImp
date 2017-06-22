@@ -15,7 +15,24 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        window = UIWindow(frame: UIScreen.main.bounds)
+        window?.makeKeyAndVisible();
+        
+        let frontNavView = frontViewNavController()
+        let frontViewCont = frontViewController()
+        frontViewCont.title = "SWRecealImp"
+        frontNavView.viewControllers = [frontViewCont]
+        
+        let frontView = frontNavView;
+        let leftView = leftViewController();
+        let rightView = rightViewController();
+        
+        let revealController = SWRevealViewController.init(rearViewController: leftView, frontViewController: frontView);
+        revealController?.setRight( rightView, animated: true );
+        
+        window?.rootViewController = revealController;
+        
         return true
     }
 
