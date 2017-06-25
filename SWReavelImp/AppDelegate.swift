@@ -11,12 +11,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.makeKeyAndVisible();
         
-        let frontNavView = frontViewNavController()
+        let frontView = frontViewNavController()
         let frontViewCont = frontViewController()
-        frontViewCont.title = "SWRecealImp"
-        frontNavView.viewControllers = [frontViewCont]
+
+        frontView.viewControllers = [frontViewCont]
         
-        let frontView = frontNavView;
         let leftView = leftViewController();
         let rightView = rightViewController();
         
