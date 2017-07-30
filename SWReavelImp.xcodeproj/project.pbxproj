@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D4A4EDD41F2E2ABB0012A337 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4A4EDD31F2E2ABB0012A337 /* SWRevealViewController.m */; };
 		DF4127A61EFC05D70027A15A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4127A51EFC05D70027A15A /* AppDelegate.swift */; };
 		DF4127AB1EFC05D70027A15A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF4127A91EFC05D70027A15A /* Main.storyboard */; };
 		DF4127AD1EFC05D70027A15A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF4127AC1EFC05D70027A15A /* Assets.xcassets */; };
 		DF4127B01EFC05D70027A15A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF4127AE1EFC05D70027A15A /* LaunchScreen.storyboard */; };
-		DF4127BB1EFC06610027A15A /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF4127B91EFC06610027A15A /* SWRevealViewController.m */; };
 		DF4127BE1EFC06BA0027A15A /* leftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4127BD1EFC06BA0027A15A /* leftViewController.swift */; };
 		DF4127C01EFC06CC0027A15A /* frontViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4127BF1EFC06CC0027A15A /* frontViewController.swift */; };
 		DF4127C21EFC06DB0027A15A /* rightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF4127C11EFC06DB0027A15A /* rightViewController.swift */; };
@@ -22,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D4A4EDD21F2E2ABB0012A337 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		D4A4EDD31F2E2ABB0012A337 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		DF4127A21EFC05D70027A15A /* SWReavelImp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SWReavelImp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF4127A51EFC05D70027A15A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DF4127AA1EFC05D70027A15A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -29,8 +31,6 @@
 		DF4127AF1EFC05D70027A15A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DF4127B11EFC05D70027A15A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DF4127B81EFC06610027A15A /* SWReavelImp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SWReavelImp-Bridging-Header.h"; sourceTree = "<group>"; };
-		DF4127B91EFC06610027A15A /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = ../../../../Desktop/SWRevealViewController.m; sourceTree = "<group>"; };
-		DF4127BA1EFC06610027A15A /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = ../../../../Desktop/SWRevealViewController.h; sourceTree = "<group>"; };
 		DF4127BD1EFC06BA0027A15A /* leftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = leftViewController.swift; sourceTree = "<group>"; };
 		DF4127BF1EFC06CC0027A15A /* frontViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = frontViewController.swift; sourceTree = "<group>"; };
 		DF4127C11EFC06DB0027A15A /* rightViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = rightViewController.swift; sourceTree = "<group>"; };
@@ -84,8 +84,8 @@
 		DF4127B71EFC06170027A15A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				DF4127B91EFC06610027A15A /* SWRevealViewController.m */,
-				DF4127BA1EFC06610027A15A /* SWRevealViewController.h */,
+				D4A4EDD21F2E2ABB0012A337 /* SWRevealViewController.h */,
+				D4A4EDD31F2E2ABB0012A337 /* SWRevealViewController.m */,
 				DF4127B81EFC06610027A15A /* SWReavelImp-Bridging-Header.h */,
 			);
 			name = Frameworks;
@@ -194,8 +194,8 @@
 				DF4127BE1EFC06BA0027A15A /* leftViewController.swift in Sources */,
 				DF4127A61EFC05D70027A15A /* AppDelegate.swift in Sources */,
 				DF4127C01EFC06CC0027A15A /* frontViewController.swift in Sources */,
+				D4A4EDD41F2E2ABB0012A337 /* SWRevealViewController.m in Sources */,
 				DF4127C51EFC08570027A15A /* baseCell.swift in Sources */,
-				DF4127BB1EFC06610027A15A /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
